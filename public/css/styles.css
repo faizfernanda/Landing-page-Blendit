@@ -1,0 +1,488 @@
+
+  .custom-judul{
+    font-family: "Purple Purse", serif;
+    font-weight: 200;
+    font-size: 48px;
+    font-style: normal;
+    text-decoration: none;
+    position: relative; 
+    text-align: center; 
+    margin-right: 50px; 
+    margin-top: 150px;
+    color: #7D3333;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Menghilangkan scroll horizontal */
+    box-sizing: border-box; /* Memastikan padding dan border dimasukkan dalam ukuran elemen */
+}
+
+.full-width-container{
+
+    overflow: auto;
+    padding: 0px; 
+}
+
+.circle {
+    width: 63px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: #FCF9A5;
+    margin-left: 215px;
+    margin-top: 54px;
+}
+.circle-2 {
+    width: 63px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: #CBFFFC;
+    margin-left: 215px;
+    margin-top: 54px;
+}
+.row {
+    display: flex; 
+    align-items: stretch; 
+}
+.custom-card{
+    background: radial-gradient(circle at 50% -60%,  #ECE2D0 0%, #E1D7C6 3%, #DFD6C5 60%, #868076 87%, #868076 100%,transparent 100%);
+    width: 100%!important;
+}
+.custom-card-2{
+    background-color: rgb(255, 255, 255);
+}
+.custom-card-3{
+    background-color: #EDDEDE;
+}
+.custom-card-4{
+    background-color: #EDDEDE;
+    width:300px;
+    border: 100px solid #ddd;
+    height: 281px !important;
+    border-radius: 30px;
+    margin-top: 77px;
+    margin-left: 22px;
+}
+
+.custom-card-5{
+    width: 100%;
+    margin: 0;
+    background:radial-gradient(circle 1800px at  50% -40%,#EDDEDE 42%,#EEC8C8 55%, #DEA1A1 84%);
+}
+
+.navbar-custom{
+    background-color: #E1D7C6; 
+    position: fixed;
+    width: 100%;
+}
+.img-1 {
+    margin-left: 570px;
+    margin-top: 100px;
+    width: 285px; 
+    height:356px; 
+    margin-bottom: 0;
+    margin-top: 50px;
+    position: relative; 
+
+}
+.img-2 {
+    margin-left: 370px;
+    margin-top: 100px;
+    width: 706px; 
+    height:324px; 
+    margin-bottom: 0;
+    margin-top: 100px;
+    position: relative; 
+
+}
+.img-left-1 {
+    margin-left: 100px;
+    width: 329px; 
+    height:200px; 
+ 
+
+}
+.img-left-2 {
+    margin-left: 100px;
+    width: 279px; 
+    height:150px;
+
+}
+.img-fitur{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    color:#6D2E46 ;
+}
+.img-fitur-face{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    color:#6D2E46 ;
+}
+.img-face{
+    width: 268px;
+    height: 312px;
+    margin-left: 159px;
+    margin-top: 149px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; 
+}
+
+.custom-navbar {
+    background-color: #6D2E46; 
+    height: 147px; 
+}
+.custom-container-fluid {
+    background-color: rgb(255, 255, 255);
+}
+
+.custom-2{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:  "Prompt", sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 30px; 
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 100px; 
+        
+    }
+}
+
+
+@media (max-width: 576px) {
+    .navbar {
+        height: 60px; 
+    
+    }
+}
+/* card */
+.judson-bold {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+  }
+.baloo-bhai-2-reguler {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    
+ }
+ .julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .quattrocento-regular {
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .noto-serif-jp {
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    position: relative; 
+    top: -5px; 
+  }
+
+  .pridi-extralight {
+    font-family: "Pridi", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .petrona-reguler {
+    font-family: "Petrona", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #6D2E46;
+    font-size: 48px;
+    text-align: center;
+  }
+.custom-3{
+    
+   
+    position: relative;
+    margin-right: 50px;
+    color: #B33030;
+    text-align: center;
+    font-size: 90px;
+    
+}
+
+
+
+.custom-4 {
+    text-align: center; 
+    margin-right: 50px;
+    margin-top: 30px;
+    color: #3B2E2E;
+    font-size: 40px;
+}
+.custom-4 .highlight {
+    display: block; 
+}
+
+.custom-fitur-detail{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+.custom-fitur-1{
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.custom-fitur-2{
+    font-size: 27px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+   
+}
+.custom-fitur-3{
+    font-size: 32px;
+    
+    color: #000000;
+    margin-left: 110px;
+    width: 500px;
+    
+}
+
+.custom-fitur-4{
+    font-size: 32px;
+    
+    color: #000000;
+    margin-left: 50px;
+    width: 500px;
+}
+.custom-fitur-5{
+    font-size: 64px;
+    color: #6D2E46;
+    margin-right: 211px;
+    margin-top: 101px;
+}
+.custom-5-detail{
+    font-size: 31px;
+    margin-left: 7px;
+    margin-top: 10px;
+    width: 600px;
+}
+.custom-fitur-6{
+    color: #6D2E46;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+}
+.custom-6-detail{
+    font-size: 13px;
+    text-align: center;
+    width: 253px;
+    height: 113px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.custom-use-detail-1{
+    color: #6D2E46;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 115px;
+    width: 350px;
+    height: 46px;
+}
+.custom-use-detail-2{
+    color: #6D2E46;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 30px;
+    width: 547px;
+    height: 108px;
+}
+.custom-use-detail-3{
+    color: #6D2E46;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 95px;
+    width: 418px;
+    height: 138px;
+}
+
+.custom-kolom-2{
+    margin-top: 150px !important;
+
+}
+.container-fluid {
+
+    max-width: 1536px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+/*ukuran SM */
+@media (max-width: 640px) {
+    
+    .img-1{
+    margin-left: 140px;
+    margin-top: 100px;
+    width: 112px; 
+    height:163px; 
+    margin-bottom: 0;
+    margin-top: 50px;
+    position: relative;
+    }
+    .img-2{
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 320px; 
+    height:139px; 
+    margin-bottom: 0;
+    margin-top: 100px;
+    position: relative; 
+    }
+    .custom-3{
+    
+        /* margin-top: 180px; */
+        position: relative;
+        margin-right: 5px;
+        color: #B33030;
+        text-align: center;
+        font-size: 35px;
+        
+    }
+    .custom-4 {
+        text-align: center; /* Membuat teks rata tengah */
+        margin-right: 10px;
+        margin-top: 30px;
+        color: #3B2E2E;
+        font-size: 20px;
+    }
+    .custom-fitur-1{
+        font-size: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    .custom-fitur-2{
+        font-size: 12px;
+        text-align: center;
+        color: #000000;
+        width: 70%;
+    }
+    .img-fitur-face,.img-fitur{
+        margin-left: 150px;
+    }
+    .custom-fitur-3{
+        margin-left: 80px;
+    }
+    .custom-fitur-4{
+        margin-left: 30px;
+        font-size: 28px;
+    }
+    .custom-fitur-5{
+        font-size: 22px;
+        color: #6D2E46;
+        margin-right: 0px!important;
+        margin-top: 0px!important;
+        margin-left: 50px!important;
+    }
+    .img-face{
+        width: 148px;
+        height: 224px;
+        margin-top: 10px!important;
+        margin-left: 100px!important;
+    }
+    .custom-5-detail{
+        font-size: 17px;
+        text-align: center;
+        color: #000000;
+        margin-top: 20px;
+        padding-right: 270px;
+    }
+    .circle {
+        width: 63px;
+        height: 57px;
+        border-radius: 50%;
+        background-color: #FCF9A5;
+        margin-left: 130px;
+       margin-top: 50px!important;
+    }
+    .custom-fitur-3{
+        font-size: 28px;
+        
+        color: #000000;
+        margin-left: 50px;
+        width: 500px;
+        
+    }
+    .circle-2 {
+        width: 63px;
+        height: 57px;
+        border-radius: 50%;
+        background-color: #CBFFFC;
+        margin-left: 130px;
+        margin-top: 0px!important;
+
+    }
+    .custom-use-detail-2{
+        color: #6D2E46;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 30px;
+        width: 347px;
+        height: 38px;
+    }
+    .custom-kolom-2{
+        margin-top: 50px !important;
+    
+    }
+}
+
+
+  

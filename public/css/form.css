@@ -1,0 +1,278 @@
+
+.custom-coloum-1{
+    background-color: #4E324E;
+    width: auto;
+
+}
+
+.custom-coloum-2{
+    background-color: #291129;
+   
+ 
+}
+.img-fitur{
+    position: absolute;
+    width: 300px;
+    height: 45,05px;
+    margin-top: 70px;
+
+}
+
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.custom-1{
+    color: white;
+    margin-top: 206px;
+    margin-left: 33px;
+    font-size: 64px;
+    text-align: left;
+
+}
+.custom-2{
+    margin-top: 313px;
+    margin-left: 33px;
+   margin-bottom: 20px;
+    font-size: 40px;
+    color: #F68787;
+   
+}
+
+.custom-3{
+    color: white;
+    margin-left: 57px;
+    margin-top: 183px;
+    font-size:64px ;
+}
+
+.judson-bold {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .form-custom{
+    width: 649px!important;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 64px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .jarak{
+    width: 649px!important;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: -20px!important; 
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  .form-custom-2 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -30px;
+    margin-left: 180px;
+}
+.custom-button{
+   margin-left: 250px;
+   width: 418px;
+   height: 43px;
+   border-radius: 50px!important;
+   margin-bottom: 50px;
+ 
+}
+
+  input{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #f0ffff;
+    border-radius: 10px;
+    transition: 0.1s ease;
+    z-index: 1111;
+
+  }
+
+  .labelline{
+    color: #f0ffff;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -85px;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 0.2s ease;
+    pointer-events: none;
+    transform-origin: left top;
+
+  }
+
+  .entryarea{
+    position: relative;
+    line-height: 80px;
+  }
+  .container{
+    width: 680px;
+  }
+
+
+input:focus,
+input:valid {
+    border: 4px solid #DEA1A1;
+    color: #ebebeb;
+}
+
+input:focus + .labelline,
+input:valid + .labelline {
+    color: #DEA1A1;
+    transform: translate(-65px,-20px) scale(1);
+    line-height: 30px;
+    margin-left: 250px;
+    z-index: 1111;
+}
+
+/* .form-custom{
+    background-color: white!important;
+    border: none!important;
+    width: 649px!important;
+    height: 60px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 64px;
+    border-radius: 20px;
+  } */
+
+
+  .message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+#successAlert {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  text-align: center;
+  font-size: 20px;
+}
+.alert{
+  width: 349px!important;
+  height: 30px!important;
+  margin-left: -30px!important;
+  margin-top: 20px;
+  width: 649px!important;
+  height: 50px!important;
+}
+.custom-regis{
+  margin-top: -35px;
+  font-size: 30px;
+}
+.customclose{
+  margin-top: -150px;
+  margin-left: 550px;
+  width: 50px;
+  height: 30px;
+}
+.custom-oke{
+  margin-top: -5px;
+  font-size: 12px;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+.container-fluid {
+  padding: 0; /* Pastikan padding container-fluid 0 */
+}
+
+.row {
+  width: auto; /* Pastikan margin row 0 */
+}
+
+.col {
+  padding: 10px; /* Atur padding kolom sesuai kebutuhan */
+}
+
+
+@media (max-width: 640px) {
+  .custom-2{
+    margin-top: 300px!important;
+    margin-left: 50px!important;
+    font-size: 30px;
+  }
+  .custom-3{
+  margin-top: 20px!important;
+  font-size:40px !important;
+  }
+  .form-custom, .jarak {
+      width: 100%; /* Contoh pengaturan lebar input untuk layar sm */
+  }
+  .jarak ,.form-custom {
+    margin-left: 40px!important;
+    width: 349px!important;
+}
+.labelline{
+    margin-left: 150px!important;
+}
+.custom-button{
+  margin-left: 100px!important;
+  width: 218px!important;
+  height: 43px;
+  border-radius: 50px!important;
+  margin-bottom: 50px;
+}
+#successAlert {
+
+  font-size: 15px!important;
+  margin-top: 20px!important;
+}
+.alert{
+  width: 349px!important;
+  height: 30px!important;
+  margin-left: 10px!important;
+}
+.custom-regis{
+  margin-top: -40px;
+}
+.customclose{
+  margin-top: -150px!important;
+  margin-left: 270px!important;
+  font-size: 15px!important;
+  height: 10px!important;
+}
+.custom-oke{
+  font-size: 10px!important;
+  margin-top: -10px;
+}
+.form-custom-2{
+  margin-left: 80px!important;
+}
+}
+
+

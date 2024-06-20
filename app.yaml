@@ -1,0 +1,6 @@
+runtime: php81 # bisa sesuaikan php versionnya
+env_variables:
+  APP_KEY: oPF8FVDTOIW9x1mBDB1ZYjvaJfQLnYo2Z134RNLzNEk= # copy output dari key generate kesini
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
